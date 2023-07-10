@@ -31,7 +31,8 @@
     line-height: 25px;
     padding: 20px 0px;
 }
-
+/* common css styles */
+.container-title
 .btn-primary {
     font-size: 20px;
     color: #fff;
@@ -41,6 +42,24 @@
     padding: 12px 20px;
 }
 
+.container-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.container-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#container-size {
+    width: 1440px;
+    margin:0 auto;
+}
 .header-img {
     width: 40%;
     top: 72px;
@@ -55,21 +74,7 @@
 /* our-feature-container styles */
 .our-feature-container {
     text-align: center;
-    margin: 100px;
-}
-
-.feature-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    padding: 10px;
-}
-
-.feature-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+    margin: 100px 0px 30px;
 }
 
 .card-container {
@@ -77,15 +82,104 @@
     width: 80%;
 }
 
+
+
 .card-items1 {
+    width: 300px;
+    height: 350px;
+    background-color: #A7216226;
+    position: relative;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding: 70px 50px 0px;
-    width: 60%;
-    height: 60%;
+    align-items: center;
+}
+
+.card-items1 img {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 30px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.card-items2 {
+    width: 300px;
+    height: 350px;
+    background-color: #0597A026;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+    align-items: center;
+}
+
+.card-items2 img {
+    position: absolute;
+    bottom: 20px;
+    padding: 30px 30px 0px;
+    text-align: center;
+    width: 90%;
+}
+
+.card-items3 {
+    width: 300px;
+    height: 350px;
+    background-color: #477D1126;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+    align-items: center;
+}
+
+.card-items3 img {
+    position: absolute;
+    bottom: 0;
+    padding: 30px 40px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.card-title {
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
 }
 
 
 
+.instragram-container{
+    text-align: center;
+    margin: 100px 0px 30px;
+}
 
-.card-items1 img {}
+.instragram-card-container{
+    display: flex;
+    width: 80%;
+}
+
+.card-items4 img {
+    bottom: 0;
+    padding: 30px 30px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.card-items5 img {
+    bottom: 20px;
+    padding: 30px 30px 0px;
+    text-align: center;
+    width: 90%;
+}
+
+.card-items3 img {
+    bottom: 0;
+    padding: 30px 40px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.card-items img{
+    width: 250px;
+    height: 300px;
+}
+
+/* deal-container section styles */
+.deal-container{
+    background-image: url(../Flower\ Asset/Rectangle 9.png);
+}
