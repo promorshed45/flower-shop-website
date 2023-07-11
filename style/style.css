@@ -191,24 +191,42 @@
 }
 input[type="text"]{
     border:0;
-    color: rgb(22, 20, 20);
-    font-size: 14px;
-    width: 500px;
-    padding: 15px 10px 15px;
-    border-radius: 7px;
+    width: 450px;
     margin-right: 15px;
     text-align: left;
+    padding: 12px 20px;
+    font-size: 20px;
+    color: rgb(22, 20, 20);
+    border-radius: 8px;
+    background: white;
 }
-.input-row{
-    align-items: center;
+.align-item{
+padding:20px 0px;
 }
+
 /* footer section styles */
-footer{
-    background-color: black;
+.footer-container{
+    background-color: #111010;
     text-align: center;
     color: white;
     padding: 100px;
 }
+.footer-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+}
 .footer-description{
-
+    padding: 30px;
+    line-height: 25px;
+font-weight: 400px;
+font-size: 16px;
+line-height: 25px;
+}
+.footer-content{
+}
+.copy-right{ 
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px; 
 }
