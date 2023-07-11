@@ -65,12 +65,12 @@
 
 .card-container {
     display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
    align-items: center;
 }
-
+.card-section {
+    width: 80%;
+}
 .card-items1 {
     width: 300px;
     height: 350px;
