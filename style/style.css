@@ -131,26 +131,27 @@
 /* signup-container */
 
 .signup-container {
-    width: 100%;
     border-radius: 8px;
     justify-content: space-around;
     background-color: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    padding: 100px 0px;
 }
-
+.signup-body{
+    width: 80%;
+}
 .left-side {
     display: flex;
-    padding: 100px 150px;
+    align-items: center;
 }
 
 .right-side img {
-    max-width: 90%;
-    max-height: 90%;
+    width: 90%;
 }
 
 .signup-content {
     justify-content: center;
     text-align: center;
-    padding: 100px;
 }
 
 .signup-title {
@@ -192,7 +193,7 @@
 /* instragram-container styles */
 .instragram-container {
     text-align: center;
-    margin: 100px 0px 30px;
+    margin: 70px 0px;
 }
 
 .instragram-card-container {
@@ -200,30 +201,8 @@
     width: 80%;
 }
 
-.card-items4 img {
-    bottom: 0;
-    padding: 30px 30px 0px;
-    text-align: center;
-    width: 70%;
-}
-
-.card-items5 img {
-    bottom: 20px;
-    padding: 30px 30px 0px;
-    text-align: center;
-    width: 90%;
-}
-
-.card-items3 img {
-    bottom: 0;
-    padding: 30px 40px 0px;
-    text-align: center;
-    width: 70%;
-}
-
 .card-items img {
-    width: 250px;
-    height: 300px;
+    width: 90%;   
 }
 /* review container */
 .review-container{
@@ -245,7 +224,8 @@
     text-align: center;
     margin: 140px;
     border-radius: 10px;
-    background-size: cover;
+    align-items: center;
+    /* background-size: cover; */
 }
 
 input[type="email"] {
