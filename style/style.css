@@ -3,7 +3,11 @@
     padding: 0 auto;
     font-family: 'Lato', sans-serif;
 }
-
+.container{
+    width: 1440px;
+    margin: auto;
+    padding: 50px 0px;
+}
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     width: 100%;
@@ -31,6 +35,7 @@
     line-height: 25px;
     padding: 20px 0px;
 }
+
 /* common css styles */
 
 .btn-primary {
@@ -58,8 +63,9 @@
 
 #container-size {
     width: 1440px;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .header-img {
     width: 40%;
     top: 72px;
@@ -141,14 +147,48 @@
     text-decoration: underline;
 }
 
+/* signup-container */
 
+.signup-container {
+    width: 100%;
+    border-radius: 8px;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.left-side{
+    display: flex;
+    padding: 100px 150px;
+}
+.right-side img{
+    max-width: 90%;
+    max-height: 90%;
+}
+.signup-content{
+justify-content: center;
+text-align: center;
+padding: 100px;
+}
+.signup-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+}
+.signup-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 15px 0px;
+}
 
-.instragram-container{
+/* instragram-container styles */
+.instragram-container {
     text-align: center;
     margin: 100px 0px 30px;
 }
 
-.instragram-card-container{
+.instragram-card-container {
     display: flex;
     width: 80%;
 }
@@ -174,23 +214,25 @@
     width: 70%;
 }
 
-.card-items img{
+.card-items img {
     width: 250px;
     height: 300px;
 }
 
 /* deal-container section styles */
-.deal-container{
+.deal-container {
     background-image: url('../Flower\ Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     padding: 70px;
     text-align: center;
     margin: 140px;
-    border-radius: 10px;;
+    border-radius: 10px;
+    ;
     background-size: cover;
 }
-input[type="text"]{
-    border:0;
+
+input[type="text"] {
+    border: 0;
     width: 450px;
     margin-right: 15px;
     text-align: left;
@@ -200,33 +242,37 @@ input[type="text"]{
     border-radius: 8px;
     background: white;
 }
-.align-item{
-padding:20px 0px;
+
+.align-item {
+    padding: 20px 0px;
 }
 
 /* footer section styles */
-.footer-container{
+.footer-container {
     background-color: #111010;
     text-align: center;
     color: white;
     padding: 100px;
 }
-.footer-title{
+
+.footer-title {
     color: white;
     font-size: 40px;
     font-weight: 800;
     padding: 10px;
 }
-.footer-description{
+
+.footer-description {
     padding: 30px;
     line-height: 25px;
-font-weight: 400px;
-font-size: 16px;
-line-height: 25px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 25px;
 }
-.footer-content{
-}
-.copy-right{ 
-color: rgba(255, 255, 255, 0.40);
-font-size: 16px; 
+
+.footer-content {}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
