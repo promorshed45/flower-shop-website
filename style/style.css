@@ -3,11 +3,13 @@
     padding: 0 auto;
     font-family: 'Lato', sans-serif;
 }
-.container{
+
+.container {
     width: 1440px;
     margin: auto;
     padding: 50px 0px;
 }
+
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     width: 100%;
@@ -155,31 +157,57 @@
     justify-content: space-around;
     background-color: rgba(229, 84, 115, 0.05);
 }
-.left-side{
+
+.left-side {
     display: flex;
     padding: 100px 150px;
 }
-.right-side img{
+
+.right-side img {
     max-width: 90%;
     max-height: 90%;
 }
-.signup-content{
-justify-content: center;
-text-align: center;
-padding: 100px;
+
+.signup-content {
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
 }
-.signup-title{
+
+.signup-title {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
     padding: 10px;
 }
+
 .signup-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     padding: 15px 0px;
+}
+
+/* support-container styles */
+.support-container {
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    justify-content: space-around;
+    margin: 100px auto;
+    display: flex;
+    padding: 80px 0px;
+    width: 80%;
+}
+
+.support-item1 img{
+    width: 88px;
+    height: 88px;
+}
+.support-item1 p{
+   padding: 10px 0px;
+   color: rgba(39, 39, 39, 0.80);
 }
 
 /* instragram-container styles */
