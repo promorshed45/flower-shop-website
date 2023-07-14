@@ -217,10 +217,11 @@
 .instragram-card-container {
     display: flex;
     width: 80%;
+    gap: 30px;
 }
 
 .card-items img {
-    width: 90%;
+    width: 100%;
 }
 .image-hover{
     background-color: #E55473;
@@ -233,21 +234,10 @@
     backface-visibility: hidden;
 }
 .card-body:hover .image-hover{
-    opacity: 0.3;
-}
-
-/* review container */
-.review-container {
-    background-image: linear-gradient(rgba(150, 221, 243, 0.9), rgba(240, 243, 49, 0.9)), url('../Flower\ Asset/review.png');
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    margin: 100px 0px;
-    padding: 70px 0px;
-}
-
-.review-video {
-    padding: 20px 0px;
+    /* opacity: 0.3; */
+    width: 110%;
+    display: block;
+    position: relative;
 }
 
 /* deal-container section styles */
@@ -259,7 +249,7 @@
     margin: 140px;
     border-radius: 10px;
     align-items: center;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 input[type="email"] {
